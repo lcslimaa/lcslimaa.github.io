@@ -183,7 +183,7 @@ button:focus {
             opacity: 1;
             color: #468fc2; }
             .all .left-content .left-nav li a.active i, .all .left-content .left-nav li a:hover i {
-              background-color: #468fc2;
+              background-color: #426d8b;
               color: #ffffff; }
           .all .left-content .left-nav li a:hover i {
             border-radius: 42px; }
@@ -234,7 +234,7 @@ button:focus {
           position: absolute;
           width: 4px;
           height: 100%;
-          background-color: #468fc2;
+          background-color: #969696;
           top: 0px;
           left: 0px; }
   .all .right-content {
@@ -830,7 +830,9 @@ button:focus {
       padding-right: 8px; }
       .right-portfolio .portfolio-section .item figure {
         position: relative;
-        overflow: hidden; }
+        overflow: hidden;
+        max-height: 300px;
+        max-width: 300px; }
         .right-portfolio .portfolio-section .item figure:before {
           content: '';
           position: absolute;

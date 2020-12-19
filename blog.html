@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/animate/animate.css">
     <link rel="stylesheet" href="lib/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="lib/animated-headline/animated-headline.css">
     <link class="color-mode" rel="stylesheet" href="css/styles.css">
     <link class="color-change" rel="stylesheet" href="css/blue.css">
     <script src="https://kit.fontawesome.com/bbe98df1ca.js" crossorigin="anonymous"></script>
@@ -21,7 +20,6 @@
 </head>
 
 <body>
-
 
     <div class="header mobile">
         <div class="hamburger">
@@ -36,14 +34,15 @@
         <div class="left-content">
             <div class="left-scroll">
                 <div class="img-avata">
-                    <img src="images/felipe.jpg" alt="avatar">
+                    <img src="images/felipe.jpg" alt="avata">
                 </div>
                 <h4 class="title-port">Felipe Oliveira da Silva</h4>
                 <ul class="left-nav">
-                    <li><a href="index.html" class="active"><i class="zmdi zmdi-hc-fw"></i><span>Home</span></a></li>
+                    <li><a href="index.html"><i class="zmdi zmdi-hc-fw"></i><span>Home</span></a></li>
                     <li><a href="about.html"><i class="zmdi zmdi-hc-fw"></i><span>About</span></a></li>
                     <li><a href="portfolio.html"><i class="zmdi zmdi-hc-fw"></i><span>Portfolio</span></a></li>
-                    <li><a href="blog.html"><i class="zmdi zmdi-hc-fw"></i><span>Articles</span></a></li>
+                    <li><a href="blog.html" class="active"><i class="zmdi zmdi-hc-fw"></i><span>Articles</span></a>
+                    </li>
                 </ul>
                 <div class="footer-box">
                     <ul class="list-social">
@@ -52,35 +51,63 @@
                                     <i class="zmdi zmdi-linkedin-box"></i></i></a></li>
                         <li><a href="https://github.com/felipeoliverai" target="blank"><i class="zmdi zmdi-hc-fw">
                                     <i class="zmdi zmdi-github-box"></i></i></i></a></li>
-
                     </ul>
                     <p class="foo-text">2020 © Copyright<br>All rights reserved.</p>
                 </div>
             </div>
         </div>
 
-        <div id="home" class="right-content">
-            <div class="right-wrap right-home">
-                <div class="content-home">
-                    <h1>
-                        <span>Welcome!</span>
-                    </h1>
-                    <div class="cd-headline push">
-                        <span style="padding-left:1em">I'm a</span>
-                        <span class="cd-words-wrapper">
-                            <b class="is-visible">Data Scientist</b>
-                        </span>
+        <div class="right-content">
+            <div class="right-wrap right-page right-resume">
+                <div class="container-fruit">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="title-page">
+                                <h1>My Articles</h1>
+                                <p>Artificial Intelligence</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="m-t-30"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="overlay-content"></div>
-                <div class="image-home">
-                    <img src="images/mountain.jpg" align="bg">
+                    <!-- Artigo 1 -->
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <article class="card-post">
+                                <div class="img-post">
+                                    <a href="https://medium.com/@felipe.oliveiras2000/o-que-%C3%A9-a-intelig%C3%AAncia-artificial-b721a76519d9"
+                                        target="blank">
+                                        <img src="https://miro.medium.com/max/700/1*F-KGixrvS0XpA8Md05oMpw.jpeg"
+                                            alt="img01" />
+                                    </a>
+                                </div>
+                                <div class="meta-post">
+                                    <span>Jun 21, 2020</span> - <a
+                                        href="https://medium.com/@felipe.oliveiras2000">Medium</a>
+                                </div>
+                                <div class="content-post">
+                                    <h2><a href="https://medium.com/data-hackers/equaliza%C3%A7%C3%A3o-de-histograma-em-python-378830368d60"
+                                            target="blank">O que é a Inteligência Artificial ?(PT-BR)</a></h2>
+                                    <div>Um olhar sobre a Inteligência Artificial e o seu potencial disruptivo no
+                                        próximos anos.
+                                    </div>
+                                </div>
+                                <div class="read-post">
+                                    <a href="https://medium.com/@felipe.oliveiras2000/o-que-%C3%A9-a-intelig%C3%AAncia-artificial-b721a76519d9"
+                                        target="blank">Ler Mais</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <!-- Fim do Artigo 1 -->
                 </div>
             </div>
         </div>
     </div>
 
     <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/owlcarousel/owl.carousel.js"></script>
     <script type="text/javascript" src="lib/bootstrap/js/popper.min.js"></script>
     <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="lib/magnific/jquery.magnific-popup.min.js"></script>
