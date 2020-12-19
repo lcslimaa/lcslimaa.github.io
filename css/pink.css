@@ -24,16 +24,16 @@
 .right-about .container-fruit .box-col .img-box {
   background-color: #e83e8c; }
 
-.right-resume .timeline li:before {
+.right-about .timeline li:before {
   border-left: 1px solid #e83e8c; }
 
-.right-resume .timeline li .timeline-item .des-pos {
+.right-about .timeline li .timeline-item .des-pos {
   color: #e83e8c; }
 
-.right-resume .list-skill:before {
+.right-about .list-skill:before {
   border-left: 1px solid #e83e8c; }
 
-.right-resume .list-skill .bar .bar-outer .bar-inner {
+.right-about .list-skill .bar .bar-outer .bar-inner {
   background: #e83e8c; }
 
 .right-portfolio .portfolio-section .portfolio-filter ul li.active {

@@ -22,7 +22,7 @@ Last change: 2019/10/02
     5. HOME PAGE 4
     6. HOME PAGE 5
     7. ABOUT PAGE
-    8. RESUME PAGE
+    8. about PAGE
     9. PORTFOLIO PAGE
     10. CONTACT PAGE
     11. BLOG PAGE
@@ -637,16 +637,16 @@ button:focus {
   z-index: 0 !important; }
 
 /*-------------------
-8. RESUME PAGE
+8. about PAGE
 ---------------------*/
-.right-resume .timeline {
+.right-about .timeline {
   list-style: none;
   margin-left: 50px; }
-  .right-resume .timeline li {
+  .right-about .timeline li {
     position: relative;
     padding-bottom: 30px;
     padding-right: 20px; }
-    .right-resume .timeline li:before {
+    .right-about .timeline li:before {
       content: "";
       width: 1px;
       border-left: 1px solid #468fc2;
@@ -654,7 +654,7 @@ button:focus {
       position: absolute;
       left: -8px;
       top: 5px; }
-    .right-resume .timeline li:after {
+    .right-about .timeline li:after {
       content: "";
       width: 19px;
       height: 19px;
@@ -664,35 +664,35 @@ button:focus {
       position: absolute;
       left: -17px;
       top: 2px; }
-    .right-resume .timeline li:last-child {
+    .right-about .timeline li:last-child {
       padding-bottom: 0px; }
-    .right-resume .timeline li .timeline-item {
+    .right-about .timeline li .timeline-item {
       position: relative;
       padding-left: 20px; }
-      .right-resume .timeline li .timeline-item .date {
+      .right-about .timeline li .timeline-item .date {
         position: absolute;
         color: #e2e2e2;
         left: -60px;
         top: 2px; }
-      .right-resume .timeline li .timeline-item .position {
+      .right-about .timeline li .timeline-item .position {
         color: #e2e2e2;
         display: block;
         font-size: 15px;
         font-weight: 600;
         margin-bottom: 10px; }
-      .right-resume .timeline li .timeline-item .des-pos {
+      .right-about .timeline li .timeline-item .des-pos {
         color: #468fc2;
         display: block;
         margin-bottom: 10px; }
 
-.right-resume .list-skill {
+.right-about .list-skill {
   padding-left: 30px;
   position: relative;
   height: 100%;
   float: left;
   margin-left: 83px;
   width: 80%; }
-  .right-resume .list-skill:before {
+  .right-about .list-skill:before {
     content: "";
     width: 1px;
     border-left: 1px solid #468fc2;
@@ -700,11 +700,11 @@ button:focus {
     position: absolute;
     left: 0px;
     top: 5px; }
-  .right-resume .list-skill .bar {
+  .right-about .list-skill .bar {
     width: 100%;
     margin: 10px 0px;
     float: left; }
-    .right-resume .list-skill .bar .skill {
+    .right-about .list-skill .bar .skill {
       text-transform: uppercase;
       margin-bottom: 0.25em;
       color: #ffffff;
@@ -712,7 +712,7 @@ button:focus {
       height: auto;
       float: left;
       width: 100%; }
-    .right-resume .list-skill .bar .bar-outer {
+    .right-about .list-skill .bar .bar-outer {
       height: 6px;
       background: rgba(255, 255, 255, 0.2);
       position: relative;
@@ -720,11 +720,11 @@ button:focus {
       float: left;
       margin-top: 8px;
       display: block; }
-      .right-resume .list-skill .bar .bar-outer .bar-inner {
+      .right-about .list-skill .bar .bar-outer .bar-inner {
         width: 0;
         height: 6px;
         background: #468fc2; }
-      .right-resume .list-skill .bar .bar-outer .speech-bubble {
+      .right-about .list-skill .bar .bar-outer .speech-bubble {
         font-size: 0.75em;
         line-height: 1.3em;
         position: absolute;
@@ -733,56 +733,56 @@ button:focus {
         min-width: 2.5em;
         border-radius: 0.3em;
         display: none; }
-        .right-resume .list-skill .bar .bar-outer .speech-bubble:after {
+        .right-about .list-skill .bar .bar-outer .speech-bubble:after {
           border: 0.5em solid transparent;
           content: "";
           margin-left: -0.5em;
           position: absolute;
           top: 100%;
           left: 50%; }
-      .right-resume .list-skill .bar .bar-outer .html {
+      .right-about .list-skill .bar .bar-outer .html {
         left: calc(60% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .javascript {
+      .right-about .list-skill .bar .bar-outer .javascript {
         left: calc(75% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .nodejs {
+      .right-about .list-skill .bar .bar-outer .nodejs {
         left: calc(80% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .sql {
+      .right-about .list-skill .bar .bar-outer .sql {
         left: calc(65% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .ml {
+      .right-about .list-skill .bar .bar-outer .ml {
         left: calc(90% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .indesign {
+      .right-about .list-skill .bar .bar-outer .indesign {
         left: calc(85% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .teamwork {
+      .right-about .list-skill .bar .bar-outer .teamwork {
         left: calc(90% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .comunication {
+      .right-about .list-skill .bar .bar-outer .comunication {
         left: calc(85% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .creative {
+      .right-about .list-skill .bar .bar-outer .creative {
         left: calc(60% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .oranisation {
+      .right-about .list-skill .bar .bar-outer .oranisation {
         left: calc(80% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .english {
+      .right-about .list-skill .bar .bar-outer .english {
         left: calc(75% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .html,
-      .right-resume .list-skill .bar .bar-outer .nodejs,
-      .right-resume .list-skill .bar .bar-outer .sql,
-      .right-resume .list-skill .bar .bar-outer .ml,
-      .right-resume .list-skill .bar .bar-outer .javascript,
-      .right-resume .list-skill .bar .bar-outer .teamwork,
-      .right-resume .list-skill .bar .bar-outer .comunication,
-      .right-resume .list-skill .bar .bar-outer .creative,
-      .right-resume .list-skill .bar .bar-outer .oranisation,
-      .right-resume .list-skill .bar .bar-outer .english {
+      .right-about .list-skill .bar .bar-outer .html,
+      .right-about .list-skill .bar .bar-outer .nodejs,
+      .right-about .list-skill .bar .bar-outer .sql,
+      .right-about .list-skill .bar .bar-outer .ml,
+      .right-about .list-skill .bar .bar-outer .javascript,
+      .right-about .list-skill .bar .bar-outer .teamwork,
+      .right-about .list-skill .bar .bar-outer .comunication,
+      .right-about .list-skill .bar .bar-outer .creative,
+      .right-about .list-skill .bar .bar-outer .oranisation,
+      .right-about .list-skill .bar .bar-outer .english {
         background: #ffffff; }
-        .right-resume .list-skill .bar .bar-outer .javascript:after,
-        .right-resume .list-skill .bar .bar-outer .html:after,
-        .right-resume .list-skill .bar .bar-outer .nodejs:after,
-        .right-resume .list-skill .bar .bar-outer .sql:after,
-        .right-resume .list-skill .bar .bar-outer .ml:after,
-        .right-resume .list-skill .bar .bar-outer .teamwork:after,
-        .right-resume .list-skill .bar .bar-outer .comunication:after,
-        .right-resume .list-skill .bar .bar-outer .creative:after,
-        .right-resume .list-skill .bar .bar-outer .oranisation:after,
-        .right-resume .list-skill .bar .bar-outer .english:after {
+        .right-about .list-skill .bar .bar-outer .javascript:after,
+        .right-about .list-skill .bar .bar-outer .html:after,
+        .right-about .list-skill .bar .bar-outer .nodejs:after,
+        .right-about .list-skill .bar .bar-outer .sql:after,
+        .right-about .list-skill .bar .bar-outer .ml:after,
+        .right-about .list-skill .bar .bar-outer .teamwork:after,
+        .right-about .list-skill .bar .bar-outer .comunication:after,
+        .right-about .list-skill .bar .bar-outer .creative:after,
+        .right-about .list-skill .bar .bar-outer .oranisation:after,
+        .right-about .list-skill .bar .bar-outer .english:after {
           border-top-color: #ffffff; }
 
 .video-container {
